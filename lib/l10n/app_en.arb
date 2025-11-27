@@ -1,0 +1,260 @@
+{
+  "@@locale": "en",
+  "appTitle": "FlutterSweep",
+  "@appTitle": {
+    "description": "The title of the application"
+  },
+  "welcome": "Welcome to FlutterSweep",
+  "@welcome": {
+    "description": "Welcome message"
+  },
+  "welcomeMessage": "FlutterSweep helps you manage disk space by cleaning up Flutter project temporary files.",
+  "@welcomeMessage": {
+    "description": "Welcome screen description"
+  },
+  "chooseProjectFolder": "Choose Flutter Projects Folder",
+  "@chooseProjectFolder": {
+    "description": "Button text to select the root folder"
+  },
+  "settings": "Settings",
+  "@settings": {
+    "description": "Settings page title"
+  },
+  "language": "Language",
+  "@language": {
+    "description": "Language setting label"
+  },
+  "theme": "Theme",
+  "@theme": {
+    "description": "Theme setting label"
+  },
+  "themeLight": "Light",
+  "@themeLight": {
+    "description": "Light theme option"
+  },
+  "themeDark": "Dark",
+  "@themeDark": {
+    "description": "Dark theme option"
+  },
+  "themeSystem": "System",
+  "@themeSystem": {
+    "description": "System theme option"
+  },
+  "archiveFolder": "Archive Folder",
+  "@archiveFolder": {
+    "description": "Archive folder setting label"
+  },
+  "version": "Version",
+  "@version": {
+    "description": "Version label"
+  },
+  "rescan": "Re-scan",
+  "@rescan": {
+    "description": "Re-scan button text"
+  },
+  "projectCount": "Projects",
+  "@projectCount": {
+    "description": "Project count label"
+  },
+  "totalSize": "Total Size",
+  "@totalSize": {
+    "description": "Total size label"
+  },
+  "purgeableSize": "Purgeable Size",
+  "@purgeableSize": {
+    "description": "Purgeable size label"
+  },
+  "tagIntact": "Intact",
+  "@tagIntact": {
+    "description": "Intact tag"
+  },
+  "tagPurgeSafe": "Purge Safe",
+  "@tagPurgeSafe": {
+    "description": "Purge Safe tag"
+  },
+  "tagArchive": "Archive",
+  "@tagArchive": {
+    "description": "Archive tag"
+  },
+  "search": "Search",
+  "@search": {
+    "description": "Search placeholder"
+  },
+  "all": "All",
+  "@all": {
+    "description": "All filter option"
+  },
+  "purgeProjects": "Purge Projects",
+  "@purgeProjects": {
+    "description": "Purge projects button"
+  },
+  "archiveProjects": "Archive Projects",
+  "@archiveProjects": {
+    "description": "Archive projects button"
+  },
+  "logs": "Logs",
+  "@logs": {
+    "description": "Logs console title"
+  },
+  "potentialSavings": "FlutterSweep can potentially free up {size}",
+  "@potentialSavings": {
+    "description": "Potential savings message",
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "scanning": "Scanning...",
+  "@scanning": {
+    "description": "Scanning status message"
+  },
+  "noProjectsFound": "No Flutter projects found",
+  "@noProjectsFound": {
+    "description": "No projects found message"
+  },
+  "selectRootFolder": "Select Root Folder",
+  "@selectRootFolder": {
+    "description": "Select root folder button"
+  },
+  "changeFolder": "Change Folder",
+  "@changeFolder": {
+    "description": "Change folder button"
+  },
+  "rootFolder": "Root Folder",
+  "@rootFolder": {
+    "description": "Root folder label"
+  },
+  "lastModified": "Last Modified",
+  "@lastModified": {
+    "description": "Last modified label"
+  },
+  "logStartingArchive": "Starting archive operation",
+  "logPurgingTempFiles": "Purging temporary files",
+  "logCreatedArchiveFolder": "Created archive folder",
+  "logCreatingZip": "Creating ZIP archive",
+  "logArchiveCreated": "Archive created: {filename}",
+  "@logArchiveCreated": {
+    "placeholders": {
+      "filename": {"type": "String"}
+    }
+  },
+  "logRemovingOriginal": "Removing original project folder",
+  "logArchiveCompleted": "Archive operation completed successfully",
+  "logArchiveFailed": "Archive operation failed: {error}",
+  "@logArchiveFailed": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "logBulkArchiveStarted": "Starting bulk archive operation",
+  "logNoGitWarning": "No Git repository detected - archive will be the only copy",
+  "logBulkArchiveCompleted": "Bulk archive completed: {success} succeeded, {failed} failed",
+  "@logBulkArchiveCompleted": {
+    "placeholders": {
+      "success": {"type": "int"},
+      "failed": {"type": "int"}
+    }
+  },
+  "logStartingPurge": "Starting purge operation",
+  "logPurgingFolder": "Purging: {folder}",
+  "@logPurgingFolder": {
+    "placeholders": {
+      "folder": {"type": "String"}
+    }
+  },
+  "logPurgeCompleted": "Purge completed successfully",
+  "logPurgeFailed": "Purge failed: {error}",
+  "@logPurgeFailed": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "logBulkPurgeStarted": "Starting bulk purge operation",
+  "logBulkPurgeCompleted": "Bulk purge completed: {success} succeeded, {failed} failed",
+  "@logBulkPurgeCompleted": {
+    "placeholders": {
+      "success": {"type": "int"},
+      "failed": {"type": "int"}
+    }
+  },
+  "archives": "Archives",
+  "archivesPageTitle": "Archived Projects",
+  "noArchivesFound": "No archives found",
+  "openInFinder": "Open in Finder",
+  "archiveFolderLocation": "Archive Folder Location",
+  "archiveDate": "Archive Date",
+  "archiveSize": "Archive Size",
+  "totalArchives": "Total Archives",
+  "totalArchivesSize": "Total Size",
+  "sortBy": "Sort by:",
+  "sortByName": "Name",
+  "sortBySize": "Size",
+  "sortByPurgeable": "Purgeable",
+  "sortByDate": "Date",
+  "confirmPurge": "Confirm Purge",
+  "purgeMessage": "You are about to purge {count} project(s):",
+  "@purgeMessage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "andMore": "... and {count} more",
+  "@andMore": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "cancel": "Cancel",
+  "purge": "Purge",
+  "purgeFailedMessage": "Purge failed: {error}",
+  "@purgeFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "confirmArchive": "Confirm Archive",
+  "archiveMessage": "You are about to archive {count} project(s):",
+  "@archiveMessage": {
+    "placeholders": {
+      "count": {"type": "int"}
+    }
+  },
+  "archiveStep1": "1. Purge temporary files",
+  "archiveStep2": "2. Create a ZIP archive",
+  "archiveStep3": "3. Delete the original folder",
+  "archive": "Archive",
+  "archiveFailedMessage": "Archive failed: {error}",
+  "@archiveFailedMessage": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "confirmDelete": "Confirm Delete",
+  "deleteArchiveMessage": "Are you sure you want to delete {name}?",
+  "@deleteArchiveMessage": {
+    "placeholders": {
+      "name": {"type": "String"}
+    }
+  },
+  "delete": "Delete",
+  "archiveDeleted": "Archive deleted",
+  "errorOpeningFolder": "Error opening folder: {error}",
+  "@errorOpeningFolder": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "errorDeletingArchive": "Error deleting archive: {error}",
+  "@errorDeletingArchive": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  },
+  "errorScanning": "Error scanning: {error}",
+  "@errorScanning": {
+    "placeholders": {
+      "error": {"type": "String"}
+    }
+  }
+}
