@@ -26,9 +26,12 @@ class SettingsRepository {
     debugPrint('SettingsRepository: Settings saved and flushed');
   }
 
-  Future<void> updateRootFolder(String path) async {
+  Future<void> updateRootFolder(String path, {String? bookmark}) async {
     final settings = await getSettings();
-    await saveSettings(settings.copyWith(rootFolderPath: path));
+    await saveSettings(settings.copyWith(
+      rootFolderPath: path,
+      rootFolderBookmark: bookmark,
+    ));
   }
 
   Future<void> updateArchiveFolder(String path) async {
